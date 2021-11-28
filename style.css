@@ -7,7 +7,6 @@ html, body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    filter: blur(0.3px);
 }
 h1 {
     font-size: 3rem;
@@ -15,27 +14,16 @@ h1 {
     text-shadow: 0.1px 0.1px #000000;
     text-transform: uppercase;   
 }
-h2 {
-    background-color: #ffffff;
-    font-size: 1rem;
-    color: #000000;
-    box-shadow: -3px 3px #d26732;
-    border-radius: 300px;
-    font-size: 1rem;
-    padding: 5px;
-    font-weight: 700;
-    opacity: 0.7;
-    word-spacing: 35px;
+p {
+    color: #FFFFFF;
 }
-
 .buffer {
     height: 5rem;
 }
-
 hr {
     margin: 20px auto;
-    border: 3px solid#d26732;
-    max-width: 65px;
+    border: 3px solid#ffc107;
+    width: 6rem;
     opacity: 1;
 }
 
@@ -43,21 +31,25 @@ hr {
     font-weight: 700;
     border-radius: 300px;
     text-transform: uppercase;
-    transition: all 1s;
+    transform: scale(2);
+    transition: all 0.5s;
 }
-
-.btn-primary {
-    border-color: #d26732;
+.card {
+    height: auto;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(3px);
+    padding: 5rem;
 }
-
-.btn-primary:hover {
-    background-color:#472415;
-    border-width: 4px;
-    border-color:#d26732;
-    transform: scale(1.5);
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
 }
-
-.btn-xl {
-    background-color: #d26732;
-    padding: 1rem 2rem;
+li {
+    color: #FFFFFF;
+    font-size: 0.9rem;
+    padding: 0 3.4rem;
+    margin-right: 1.3rem;
 }
